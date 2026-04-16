@@ -1,0 +1,6 @@
+@LeaseBridge.API_HostAddress = http://localhost:5290
+
+GET {{LeaseBridge.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
