@@ -1,4 +1,4 @@
-/* 1. Root Variables */
+/* Root Variables */
 :root {
     --navy-blue: #0d346d;
     --light-blue: #4a90e2;
@@ -11,7 +11,7 @@
     --transition: all 0.3s ease;
 }
 
-/* 2. Global Styles & Sticky Footer Setup */
+/* Global Styles & Sticky Footer Setup */
 html {
     font-size: 14px;
     height: 100%;
@@ -39,7 +39,7 @@ main {
     flex-direction: column;
 }
 
-/* 3. Navigation */
+/* Navigation */
 .navbar {
     box-shadow: var(--shadow-sm);
 }
@@ -51,9 +51,9 @@ main {
     padding: 0.5rem 1rem;
 }
 
-    .custom-nav-link:hover {
-        color: var(--light-blue) !important;
-    }
+.custom-nav-link:hover {
+     color: var(--light-blue) !important;
+}
 
 .navbar-brand {
     font-weight: 800;
@@ -61,7 +61,7 @@ main {
     color: var(--navy-blue) !important;
 }
 
-/* 4. Global Card Styles  */
+/*  Global Card Styles  */
 .card-custom {
     border: none;
     border-radius: 15px !important;
@@ -78,7 +78,7 @@ main {
     border-bottom: none;
 }
 
-/* 5. Buttons  */
+/* Buttons  */
 .btn-navy {
     background-color: var(--navy-blue);
     color: white;
@@ -89,14 +89,14 @@ main {
     transition: var(--transition);
 }
 
-    .btn-navy:hover {
-        background-color: var(--light-blue);
-        color: white;
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(13, 52, 109, 0.3);
-    }
+.btn-navy:hover {
+    background-color: var(--light-blue);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 52, 109, 0.3);
+}
 
-/* 6. Page Layout Wrapper  */
+/*  Page Layout Wrapper  */
 .page-container {
     padding: 60px 0;
     display: flex;
@@ -105,7 +105,7 @@ main {
     flex-grow: 1;
 }
 
-/* 7. Maintenance Lookup & Form Specifics */
+/* Maintenance Lookup & Form Specifics */
 .lookup-full-bg {
     min-height: calc(100vh - 250px);
     display: flex;
@@ -124,7 +124,7 @@ main {
     box-shadow: 0 0 0 0.25rem rgba(74, 144, 226, 0.25);
 }
 
-/* 8. Hero & Sections */
+/* Hero & Sections */
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/1200x/09/90/36/09903616d115bd8e9a6fe9074f226361.jpg');
     background-size: cover;
@@ -139,7 +139,7 @@ main {
     color: var(--navy-blue);
 }
 
-/* 9. Utility Classes */
+/* Utility Classes */
 .text-navy {
     color: var(--navy-blue) !important;
 }
